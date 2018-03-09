@@ -1,0 +1,55 @@
+\documentclass[letterpage,12pt]{article}
+\usepackage[urlcolor=magenta]{hyperref}
+\usepackage[inline]{enumitem}
+
+\title{Learn Electronics \& Programming with Arduino\vspace{-2ex}}
+\date{Updated as of: \today\vspace{-2ex}}
+\pagenumbering{gobble}
+\renewcommand\abstractname{Summary:}
+
+
+\begin{document}
+\maketitle
+\begin{abstract}
+  The Arduino microcontroller is a small programmable board that can be used to control all sorts of circuits. In this mini-workshop we'll be learning how to make small circuits, connect them to an Arduino Uno, and program their behavior.
+\end{abstract}
+
+\section*{Resources \& useful links}
+\begin{description}
+  \item[Materials for this class:] \url{https://github.com/clarissalittler/intro-arduino-workshop}
+  \item[Built-in tutorials in IDE:] \texttt{File $\rightarrow$ Examples $\rightarrow$ Built-in Examples}
+  \item[Built-in tutorials online:] \url{https://www.arduino.cc/en/Tutorial/BuiltInExamples}
+  \item[Arduino official tutorial list:] \url{https://www.arduino.cc/en/Tutorial/HomePage}
+  \item[TinkerCAD simulator:] \url{https://www.tinkercad.com/#/?type=circuits}
+  \item[Arduino IDE download:] \url{https://www.arduino.cc/en/Main/Software}
+  \item[Best C programing book:] \url{https://en.wikipedia.org/wiki/The_C_Programming_Language}
+  \item[Arduino projects on Instructables] \url{http://www.instructables.com/id/Arduino-Projects/}
+  \item[Arduino projects on official site] \url{https://create.arduino.cc/projecthub}
+\end{description}
+
+\section*{Getting started at home}
+To get started working on your own projects at home you'll need to have, at the bare minimum,
+\begin{enumerate*}
+  \item An Arduino board
+  \item A serial cable to connect it
+  \item A computer with the Arduino IDE installed
+\end{enumerate*}
+
+You'll probably \textit{also} want some kind of kit with electronics components if you don't have one already. There are a number of them for sale through Adafruit: \url{https://www.adafruit.com/category/17}
+\section*{Glossary}
+\begin{description}
+  \itemsep2pt
+  \item[Voltage] The energy differential between two places in a circuit, measured in volts
+  \item[Current] How much charge is moving through the circuit per second, measured in Amperes
+  \item[Ground] A stable reference point for measuring voltage and a sink for current
+  \item[PWM] Pulse-width modulation: a technique for simulating analog output by rapidly turning on and off the digital pin
+  \item[Digital pins] Pins that are either \texttt{HIGH} or \texttt{LOW}. Can be used for both input and output.
+  \item[Analog pins] Pins that can be read to produce a range of values from 0 to 1023.
+  \item[C Programming Language] The underlying language for programming Arduino boards.
+  \item[Resistor] A material that \textit{resists} electrical current, slowing it down like a narrow pipe.
+  \item[Pot/Potentiometer] Acts like a variable strength resistor
+  \item[IDE] Integrated Development Environment, a program that helps you write and run code
+  \item[Breadboard] A board that you can plug electronics components into temporarily to build circuits
+\end{description}
+
+\end{document}
